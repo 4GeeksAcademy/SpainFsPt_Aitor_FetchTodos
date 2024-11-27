@@ -10,3 +10,87 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&family=Reenie+Beanie&display=swap');
+
+html, body { 
+    height: 100%;
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+
+
+body {
+    margin-top: 0;
+    height: 100vh;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-textura-papel-espacio-diseno_53876-147801.jpg?t=st=1731506888~exp=1731510488~hmac=7e450e1518882ca7434754996073f58ba17e5bcc3433603e55246b6a037a90b7&w=2000);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+input {
+    width: 500px;
+    border-radius: 50px;
+    text-align: center;
+    background: transparent;
+    font-family: "Permanent Marker", cursive;
+}
+
+h2 {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.btn {
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Gradiente de colores */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 30px;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.btn:hover {
+    background: linear-gradient(to right, #feb47b, #ff7e5f); /* Gradiente invertido */
+}
+
+ul {
+    padding: 0;
+    margin-bottom: 0;
+}
+
+ul li {
+    list-style: none;
+    padding: 5px;
+}
+
+li {
+    font-family: "Indie Flower", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+}
